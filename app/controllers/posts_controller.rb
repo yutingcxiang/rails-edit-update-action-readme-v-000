@@ -20,8 +20,8 @@ class PostsController < ApplicationController
   end
 
   def edit
-end
+  end
  
-def update
-end
+  def update
+  end
 end
