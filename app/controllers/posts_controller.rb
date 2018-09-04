@@ -14,7 +14,7 @@ class PostsController < ApplicationController
   def create
     @post = Post.new
     @post.title = params[:post][:title]
-    @post.description = params[:description]
+    @post.description = params[:post][:description]
     @post.save
     redirect_to post_path(@post)
   end
